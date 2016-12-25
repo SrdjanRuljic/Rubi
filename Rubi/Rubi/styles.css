@@ -1,0 +1,17 @@
+﻿.curs {
+    cursor: pointer;
+}
+
+.img {
+    border: 2px solid #ccc;
+    width: 95%;
+}
+
+.img:hover {
+    border: 2px solid #777;
+}
+
+h1, h2, p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}

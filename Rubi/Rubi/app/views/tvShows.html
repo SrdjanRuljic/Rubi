@@ -1,18 +1,20 @@
 ﻿<div class="row">
+    
     <br />
-    <h1>Tv shows</h1>
-    <br />
-    <input type="text" class="search form-control" ng-model="searchInput" ng-change="searchEvent()" placeholder="Search..." />
-</div>
+    <div class="row">
+        <input type="text" class="search form-control" ng-model="searchInput" ng-change="searchEvent()" placeholder="Search..." />
+    </div>
 
-<div class="container">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" ng-repeat="item in tvShowsData" ng-click="previewTvShow(item.id)">
-        <div class="row">
-            <img ng-if="item.imgLink !== null" src="{{item.imgLink}}"/>
-            <img ng-if="item.imgLink === null" src="no-poster-available.jpg"/>
-        </div>
-        <div class="row">
-            <h2>{{item.name}}</h2>
+    <br />
+    <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" ng-repeat="item in tvShowsData" ng-click="previewTvShow(item.id)">
+            <div class="row curs">
+                <img ng-if="item.imgLink !== null" src="{{item.imgLink}}" class="img" height="350"/>
+                <img ng-if="item.imgLink === null" src="no-poster-available.jpg" class="img" height="350"/>
+            </div>
+            <div class="row">
+                <h2>{{item.name}}</h2>
+            </div>
         </div>
     </div>
 </div>

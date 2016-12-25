@@ -74,6 +74,7 @@
     <Content Include="app\views\basePage.html" />
     <Content Include="app\views\movieDetail.html" />
     <Content Include="app\views\movies.html" />
+    <Content Include="styles.css" />
     <Content Include="app\views\tvShowDetail.html" />
     <Content Include="app\views\tvShows.html" />
     <Content Include="index.html" />
