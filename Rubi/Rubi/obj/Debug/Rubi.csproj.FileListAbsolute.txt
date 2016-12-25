@@ -1,0 +1,6 @@
+E:\Rubi\Rubi\Rubi\bin\Rubi.dll.config
+E:\Rubi\Rubi\Rubi\bin\Rubi.dll
+E:\Rubi\Rubi\Rubi\bin\Rubi.pdb
+E:\Rubi\Rubi\Rubi\obj\Debug\Rubi.csprojResolveAssemblyReference.cache
+E:\Rubi\Rubi\Rubi\obj\Debug\Rubi.dll
+E:\Rubi\Rubi\Rubi\obj\Debug\Rubi.pdb
